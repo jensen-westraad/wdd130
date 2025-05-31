@@ -75,56 +75,81 @@ footer {
     margin: 0 auto;
 }
 
-article{
+article {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--accent1-color);
+    margin: 20px;
+    padding: 30px 20px;
+    border: 2px solid var(--accent2-color);
+    color: #1B9AAA
+}
 
+article h2 {
+    position: relative;
+
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #1B9AAA;
 }
 
 .history {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--accent1-color);
+    margin: 20px;
+    padding: 30px 20px;
+    border: 3px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
 
+.history h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--primary-color);
 
 }
-.history img{
+
+
+
+
+
+.history img {
     max-width: 200px;
     display: flex;
     justify-content: center;
     align-content: space-between;
+
 }
 
-.adventure{
+.adventure {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-direction: column;
-    align-content: space-between;
-    align-items: flex-start;
-    gap: 1px;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    gap: 20px;
+
 }
 
 .adventure img {
-    display: flex;
-    flex-wrap: nowrap;
-    max-width: 80px;
-    height: auto;
-}
-
-.figure {
+    background-color: var(--accent1-color);
+    width: 100px;
+    height: 100px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-   
-
+    justify-content: center;
+    align-items: center;
 }
+
+.adventure h2 {
+    margin-bottom: 20px;
+}
+
 
 figure figcaption {
     flex-direction: column;
@@ -167,18 +192,66 @@ h1 {
     text-align: center;
     opacity: 1;
     background-color: var(--secondary-color);
-    color: #F2F4F3;
+    color: var(--accent1-color)
+}
 
+h2 {
+    color: #1B9AAA;
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
 
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+
+.hero h1 {
+    position: absolute;
+    color: var(--accent1-color);
+    font-size: 2.5em;
+
+}
+
+.purpose-block {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 700px;
+    background-color: var(--accent1-color);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.purpose-block h2 {
+    margin-top: 0;
+    color: var(--accent2-color);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.purpose-block p {
+    color: var(--accent2-color);
+    margin: 0;
 }
