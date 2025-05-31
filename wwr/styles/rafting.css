@@ -75,6 +75,34 @@ footer {
     margin: 0 auto;
 }
 
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section img {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: auto;
+    
+    
+
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    
+}
+figure figcaption{
+    flex-direction: column;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -89,13 +117,8 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
+.social-media a {
     text-decoration: none;
-}
-
-.socialmedia img{
-    width: 32px;
-    height: auto;
 }
 
 .hero {
@@ -127,5 +150,7 @@ h1 {
 
 footer {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
 }
