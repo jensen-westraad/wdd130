@@ -75,18 +75,35 @@ footer {
     margin: 0 auto;
 }
 
-.history {
+article{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
+}
 
+.history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-between;
+
+
+}
+.history img{
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
 }
 
 .adventure{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-direction: column;
+    align-content: space-between;
     align-items: flex-start;
     gap: 1px;
     flex-wrap: wrap;
@@ -117,6 +134,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
+    text-align: center;
 }
 
 nav,
