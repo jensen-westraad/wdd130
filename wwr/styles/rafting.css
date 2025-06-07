@@ -146,6 +146,24 @@ article h2 {
     align-items: center;
 }
 
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.maps img {
+    background-color: var(--accent1-color);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .adventure h2 {
     margin-bottom: 20px;
 }
