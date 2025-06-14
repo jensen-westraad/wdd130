@@ -128,6 +128,41 @@ article h2 {
 
 }
 
+
+.additional-info img {
+    max-width: 200px;
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px; 
+  align-items: center; 
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 50px;
+   align-items: center;
+
+}
+
+
+
+
+
+
+
 .adventure {
     display: flex;
     flex-wrap: wrap;
@@ -193,7 +228,7 @@ article {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
 }
 
 .hero img {
